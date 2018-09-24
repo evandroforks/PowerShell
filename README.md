@@ -4,22 +4,12 @@
 
 Adds support for the MS PowerShell programming language.
 
-
-## Status
-
-|         |Windows |
-|---------|:------:|
-|master|[![Build status](https://ci.appveyor.com/api/projects/status/fgbrealw58sd8ado/branch/master?svg=true)](https://ci.appveyor.com/project/guillermooo/powershell/branch/master)|
-|dev|[![Build status](https://ci.appveyor.com/api/projects/status/fgbrealw58sd8ado/branch/dev?svg=true)](https://ci.appveyor.com/project/guillermooo/powershell/branch/dev)|
-
-
-
 ### Installing
 
 1. Install [package control][package_control] for Sublime Text.
 1. Install the **PowerShell** package:
 
-	1. Press <kbd>Ctrl + Shift + P</kbd>
+	1. Press <kbd>Ctrl + Shift + P</kbd> (<kbd>Cmd + Shift + P</kbd> on Mac)
 	1. Select 'Install Package'
 	1. Select 'PowerShell'
 
@@ -28,5 +18,10 @@ Adds support for the MS PowerShell programming language.
 
 You want to contribute? Awesome! Take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
 
+### EditorSyntax
+
+Syntax highlighting is provided by the project [EditorSyntax][].
+Issues about the grammar should be opened in **EditorSyntax** instead of this repo.
 
 [package_control]: https://sublime.wbond.net/installation
+[EditorSyntax]: https://github.com/PowerShell/EditorSyntax
